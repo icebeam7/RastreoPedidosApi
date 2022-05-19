@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:43452",
+      "sslPort": 44365
+    }
+  },
+  "profiles": {
+    "RastreoPedidosApi": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "USERNAME": "curso",
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "SERVERNAME": "LAPTOP-1DAHCT12",
+        "DATABASER": "RastreoPedidos",
+        "PASSWORD": "pass"
+      },
+      "applicationUrl": "https://localhost:7197;http://localhost:5197",
+      "dotnetRunMessages": true
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
